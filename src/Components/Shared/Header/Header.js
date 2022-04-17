@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" className='sticky-top'>
                 <Container>
                     <Navbar.Brand href="#home" className='site-title'>Healthy Bite</Navbar.Brand>
                     <Nav className="ms-auto">
