@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css'
 
+import auth from '../../../firebase.init';
+
 const Login = () => {
+    
     return (
         <div className='container w-50 mx-auto mt-5 shadow-lg p-5 rounded-3 border'>
             <h2 className='text-primary fw-bold form-title'>Please Login!!</h2>
