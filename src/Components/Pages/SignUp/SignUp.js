@@ -9,7 +9,7 @@ import './SignUp.css'
 const SignUp = () => {
     const [
         createUserWithEmailAndPassword
-    ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true});
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const [email, setEmail] = useState({ value: "", error: "" });
     const [password, setPassword] = useState({ value: "", error: "" });
     const [checked, setChecked] = useState(false);
@@ -34,13 +34,13 @@ const SignUp = () => {
         }
     }
 
-    const handleCreateUser = (event) => {
+    const handleCreateUser = async (event) => {
         event.preventDefault();
         if (email.value && password.value) {
-            createUserWithEmailAndPassword(email.value, password.value);
+            await createUserWithEmailAndPassword(email.value, password.value);
             navigate('/');
         }
-        else{
+        else {
             return;
         }
     }
