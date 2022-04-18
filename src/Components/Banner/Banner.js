@@ -6,21 +6,23 @@ import banner3 from '../Assets/BannerImage/banner3.jpg'
 
 const Banner = () => {
     return (
-        <div  className='h-25'>
+        <div className='h-25'>
             <Carousel fade>
                 <Carousel.Item>
-                    <img style={{height:'300px'}}
+
+                    <img style={{ height: '300px' }}
                         className="d-block w-100 img-fluid"
                         src={banner1}
                         alt="First slide"
                     />
+
                     <Carousel.Caption>
                         <h3 className='text-dark'>Every Bite is Healthy</h3>
                         <p className='text-dark'>Healthy food ensures a healthy life</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img style={{height:'300px'}}
+                    <img style={{ height: '300px' }}
                         className="d-block w-100"
                         src={banner2}
                         alt="Second slide"
@@ -32,7 +34,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img style={{height:'300px'}}
+                    <img style={{ height: '300px' }}
                         className="d-block w-100"
                         src={banner3}
                         alt="Third slide"
