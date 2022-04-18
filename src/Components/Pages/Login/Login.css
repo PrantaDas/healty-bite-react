@@ -1,17 +1,3 @@
-.form-container {
-    width: 500px;
-    height: 600px;
-    margin: 50px auto;
-    box-sizing: border-box;
-    border-radius: 11px;
-    background: #e0e0e0;
-    box-shadow: 35px 35px 70px #c1c1c1,
-        -35px -35px 70px #ffffff;
-    display: flex;
-    justify-content: center;
-
-}
-
 .form-container h2 {
     text-align: center;
 }
