@@ -1,44 +1,23 @@
 [
     {
-      "_id": "625bfb38b95d2f6d1e652fcb",
-      "price": "",
-      "picture": "http://placehold.it/32x32",
-      "description": "",
-      "name": "Franco Booker"
+        "_id": "1",
+        "price": "120 $",
+        "picture": "https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7781.jpg?t=st=1650240066~exp=1650240666~hmac=b6697c8ab372a53a40e4dc941047b80d146fbc246c07fa1a01f381ddd652bbdd&w=826",
+        "description": "If you are not able to reach to my clinic for any reason,you can make a conversation with me virtually.It is not enough to solve your problem thouh, thats why I prefer visiting me personally.",
+        "name": "Online Consultaion"
     },
     {
-      "_id": "625bfb38a99506695ad4a3e5",
-      "price": "",
-      "picture": "http://placehold.it/32x32",
-      "description": "",
-      "name": "Mable Oneil"
+        "_id": "2",
+        "price": "50 $",
+        "picture": "https://img.freepik.com/free-vector/healthy-eating-pyramid-realistic-infographic-visual-guide-poster-type-proportions-daily-food-nutrition_1284-31754.jpg?t=st=1650240248~exp=1650240848~hmac=737b6ec366251ff11538a119c4c3bc776528dc6ca7f04954caa3752c88b602cb&w=826",
+        "description": "Those who are already been the victim of malnutriton this guide is specially for them to cure soon.Those people who have symptoms of malnutrition can also follow the advance nutrition guide.",
+        "name": "Special Nutrition Guide"
     },
     {
-      "_id": "625bfb38b02096923b2d42b2",
-      "price": "",
-      "picture": "http://placehold.it/32x32",
-      "description": "",
-      "name": "Jami Richardson"
-    },
-    {
-      "_id": "625bfb38817d14007232e05a",
-      "price": "",
-      "picture": "http://placehold.it/32x32",
-      "description": "",
-      "name": "Ingrid Mason"
-    },
-    {
-      "_id": "625bfb3892627625724c717e",
-      "price": "",
-      "picture": "http://placehold.it/32x32",
-      "description": "",
-      "name": "Acevedo Greene"
-    },
-    {
-      "_id": "625bfb382582e0deaf344401",
-      "price": "",
-      "picture": "http://placehold.it/32x32",
-      "description": "",
-      "name": "Whitney Sampson"
+        "_id": "3",
+        "price": "200 $",
+        "picture": "https://img.freepik.com/free-photo/my-daughter-isn-t-afraid-pay-visit-here_329181-7634.jpg?t=st=1650240317~exp=1650240917~hmac=f3244a882a66cd0c32619625212c5df577740a66aaf176b6f96a797bc894d181&w=826",
+        "description": "Peer to peer dicussion and diagnosis is the best remedy for the patient.Its highly recommended for the patient to visit me personally and ensure your good health esteem.",
+        "name": "Visit Personally"
     }
-  ]
+]

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css'
 import auth from '../../../firebase.init';
@@ -12,6 +12,10 @@ const Login = () => {
     const [email, setEmail] = useState({ value: "", error1: "" });
     const [password, setPassword] = useState({ value: "", error2: "" });
     const navigate = useNavigate();
+    const location=useLocation();
+
+    let from = location.state?.from?.pathname || "/";
+
     const handleEmail = (event) => {
         const emailInput = event.target.value;
         setEmail({ value: emailInput, error1: "" });
@@ -60,7 +64,9 @@ const Login = () => {
         if (email.value && password.value) {
             signInWithEmailAndPassword(auth, email.value, password.value)
                 .then(userCredential => {
-                    navigate('/');
+                    // navigate('/');
+                    navigate(from, { replace: true });
+
                 })
                 .catch((error) => {
                     const errorMessage = error.message;
